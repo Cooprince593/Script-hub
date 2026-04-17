@@ -435,19 +435,19 @@ end
 Script1Btn.MouseButton1Click:Connect(function()
     toggleUI(false)
     print("Ejecutando BLOXY-MM2™...")
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/Cooprince593/9ef7846b95a0d0aec2342a90eaac6bb6/raw/a04e209670d8f87116c00669be36b6e9f68337e2/Bloxy-MM2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Cooprince593/Script-hub/refs/heads/main/Bloxy-MM2.lua"))()
 end)
 
 Script2Btn.MouseButton1Click:Connect(function()
     toggleUI(false)
     print("Ejecutando BLOXY-E | A...")
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/Cooprince593/4a9c1b6ed53820a57afd6cf364de67d0/raw/478141966c8dbd98bf46636c7736770a268f4cee/Bloxy-E%2520%257C%2520A.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Cooprince593/Script-hub/refs/heads/main/Bloxy-E%20%7C%20A.lua"))()
 end)
 
 Script3Btn.MouseButton1Click:Connect(function()
     toggleUI(false)
     print("Ejecutando BLOXY-RV...")
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/Cooprince593/97a68c256e1cdf0f7d597749a1f5395e/raw/8af46c2eb9008ef7bef7f05175ef56784a219470/BLOXY-RV.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Cooprince593/Script-hub/refs/heads/main/BLOXY-RV.lua"))()
 end)
 
 SettingsBtn.MouseButton1Click:Connect(function()
